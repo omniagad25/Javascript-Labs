@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buttons style</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      button {
+        margin: 1px 50px 50px 50px;
+        padding: 10px;
+        cursor: pointer;
+      }
+      .youtube {
+        width: 100px;
+        height: 100px;
+        color: white;
+        background-color: #c70100;
+        border: none;
+        border-radius: 1px;
+        text-transform: uppercase;
+        transition: 5s;
+      }
+      .youtube:active {
+        background-color: #3964a8;
+      }
+      .join {
+        color: #3964a8;
+        background-color: white;
+        border: solid 1px#98a2be;
+        border-radius: 2px;
+        box-shadow: 0px 1px 30px black;
+      }
+      .tweet {
+        /* color: white; */
+        background-color: skyblue;
+        font-weight: bold;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 20px;
+      }
+      p {
+        color: red;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div id="buttons">
+        <button type="button" class="youtube">Subscribe</button>
+        <button type="button" class="join"><i>Join</i></button>
+        <button type="button" class="tweet">Tweet</button>
+      </div>
+      <p>Hello word</p>
+    </main>
+  </body>
+</html>

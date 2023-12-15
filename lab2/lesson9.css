@@ -1,0 +1,145 @@
+.div9a {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+}
+.div9b {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: green;
+}
+.div9c {
+  width: 400px;
+  height: 100px;
+  border: 1px solid rgba(190, 191, 191, 255);
+  padding-left: 15px;
+}
+.div9d {
+  padding: 10px 15px;
+  background-color: rgba(32, 32, 33, 255);
+}
+.h29d {
+  color: white;
+  font-family: Arial, sans-serif;
+}
+.p9d {
+  color: gray;
+  font-family: Arial, sans-serif;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.div9e {
+  padding: 5px;
+  margin: 15px;
+  width: 300px;
+  background-color: white;
+  box-shadow: 0 0 3px gray;
+  border: 0.5px solid grey;
+  border-radius: 5px;
+}
+.img9e {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline;
+  vertical-align: middle;
+}
+#post {
+  width: 180px;
+  display: inline;
+  vertical-align: middle;
+  border: none;
+  color: grey;
+}
+#tweet {
+  display: inline;
+  padding: 5px 15px 5px 15px;
+  background-color: rgb(13, 130, 184);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.dive9f{
+  display: inline-block;
+  margin:10px 10px;
+  width: 150px;
+  height: 240px; ;
+  background-color: white;
+  box-shadow: 0 0 3px gray;
+
+}
+.img9f {
+  width: 150px;;
+  height: 150px;
+  display: inline; 
+  vertical-align: middle;
+
+}
+#button,.h39f,.p9f{
+    margin: 5px;
+}
+#button{
+  padding: 5px;
+  width: 100px;
+  display: inline; 
+  vertical-align: middle;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(14, 142, 201);
+  color: white;
+
+}       
+.h39f {
+  color: black;
+  font-family: Arial, sans-serif;
+  display: inline;
+  
+}
+.p9f {
+  color: gray;
+}
+
+/*h*/
+.div9h{
+    text-align: center;
+}
+.img9h{
+    width: 500px;
+    height: 200px;
+    display: block;
+    object-fit: fill;
+    object-position: center;
+    margin-left: 400px;
+    margin-top: 100px ;
+    
+}
+
+.input9h{
+    display: block;
+    width: 500px;
+    height: 40px;
+    background-color: white;
+    color: grey;
+    font-weight: 520;
+    border-radius: 30PX;
+    border: 3px solid whitesmoke;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.5) ;
+    margin-left: 400px;
+    margin-top: 20px ;
+}
+
+.button9h{
+    margin: 20px 5px 100px 20px;
+    background-color: rgb(236, 229, 229);
+    color: black;
+    font-weight: bold;
+    padding : 10px 10px 10px 10px;
+    border: none;
+}
